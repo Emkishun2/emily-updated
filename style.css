@@ -1,0 +1,104 @@
+body{
+    font-family: "Irish Grover", system-ui;
+    margin: 60px;
+    margin-top: 10px;
+    padding: 0;
+    background-color: teal; /* color teal since it looks more like underwater */
+    }
+
+    .sketchfab-embed-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (Responsive) */
+    }
+        
+    .sketchfab-embed-wrapper iframe,video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    opacity: 0.5; /* change this opacity value for the color as needed*/
+    }
+    
+nav{
+    background-color: transparent;
+    font-family: "Irish Grover", system-ui;
+    font-size: 27px;
+    font-style: normal;
+    /* added the three "fonts" but had no changes to the navigation menu */
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px 10%; 
+      }
+
+#main-menu{
+    display: flex;
+    gap: 60px;
+}
+
+#main-menu li{
+    list-style: none;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    margin: 0px;
+}
+
+.sub-menu:hover .dropdown {
+    display:block;
+}
+
+.logo{
+    color: #00b3b3;
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 70px;
+    font-style: normal;
+    padding: 0px 5%;
+}
+
+
+#main-menu button, #main-menu a {
+    background-color: transparent;
+    font-family: "Irish Grover", system ui;
+    font-size: 20px; 
+    transition: color .3s;
+    text-decoration: none;
+    color: white;
+    border-width: 0;
+    font-weight: none; 
+
+/* the navigation bar  */
+}
+
+/* About Me Button */
+#main-menu button:nth-of-type(0):hover {
+    color: #2CC49B; 
+}
+
+/* Resume Link */
+#main-menu a:hover {
+    color: #2CC49B; 
+}
+
+/* Criminology Button */
+#main-menu button:nth-of-type(1):hover {
+    color: #ecec2e; 
+}
+
+/* Journalism Button */
+#main-menu button:nth-of-type(2):hover {
+    color: #40b4f7; 
+}
+
+/* Graphic Design Button */
+#main-menu button:nth-of-type(3):hover {
+    color: #f74949; 
+}
+
+
+
+
+

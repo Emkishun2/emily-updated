@@ -1,0 +1,111 @@
+body{
+    font-family: "Irish Grover", system-ui;
+    margin: 60px;
+    margin-top: 10px;
+    padding: 0;
+    background-color:black;
+    }
+    
+nav{
+    background-color: transparent;
+    font-family: "Irish Grover", system-ui;
+    font-size: 20px;
+    font-style: normal;
+    /* added the three "fonts" but had no changes to the navigation menu */
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px 10%; 
+      }
+
+#main-menu{
+    display: flex;
+    gap: 40px;
+}
+
+#main-menu li{
+    list-style: none;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    margin: 0px;
+}
+
+.sub-menu:hover .dropdown {
+    display:block;
+}
+
+.logo{
+    color: #00b3b3;
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 50px;
+    font-style: normal;
+    padding: 0px 5%;
+}
+
+
+#main-menu button, #main-menu a {
+    background-color: transparent;
+    font-family: "Irish Grover", system ui;
+    font-size: 15px; 
+    transition: color .3s;
+    text-decoration: none;
+    color:white;
+    border-width: 0;
+    font-weight: none; 
+
+/* the navigation bar  */
+}
+
+/* About Me Button */
+#main-menu button:nth-of-type(0):hover {
+    color: #2CC49B; 
+}
+
+/* Resume Link */
+#main-menu a:hover {
+    color: #2CC49B; 
+}
+
+/* Criminology Button */
+#main-menu button:nth-of-type(1):hover {
+    color: #ecec2e; 
+}
+
+/* Journalism Button */
+#main-menu button:nth-of-type(2):hover {
+    color: #40b4f7; 
+}
+
+/* Graphic Design Button */
+#main-menu button:nth-of-type(3):hover {
+    color: #f74949; 
+}
+
+.rectangle {
+    width: 700px; 
+    height: 600px; 
+    background-color: #2CC49B; 
+    position: absolute; 
+    top: 70%; /* Adjust top position if needed */
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.pdf-container {
+    position: absolute;
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure it's above the rectangle */
+    width: 600px; 
+    height: 600px; 
+}
+
+.pdf-container iframe {
+    width: 100%;
+    height: 100%;
+   
+}
+
