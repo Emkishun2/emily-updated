@@ -3,11 +3,11 @@ body{
     margin: 10px;
     margin-top: 0px;
     padding: 0;
-    background-color:#1be205; 
+    background-color:white; 
     }
-    
+
 nav{
-    background-color:#1be205;
+    background-color: white;
     font-family: "Irish Grover", system-ui;
     font-size: 20px;
     font-style: normal;
@@ -17,28 +17,28 @@ nav{
     padding: 20px 5%; 
     /* first px change vertical size, the second change the spacing bewteen */
     }
-    
+
 #main-menu{
     display: flex;
     align-items: center;
     gap: 120px;
-    }
-    
+}
+
 #main-menu li{
     list-style: none;
 }
-    
+
 .dropdown{
     display: none;
     position: absolute;
     margin: 0px;
 }
-    
+
 .sub-menu:hover .dropdown {
     display:block;
-        
-}
     
+}
+
 .logo{
     color:#051BE2;
     font-family: "Just Me Again Down Here", cursive;
@@ -47,71 +47,41 @@ nav{
     padding: 0px 3%;
     text-decoration: none; /* Remove underline */ 
 }
-    
-    
+
 #main-menu button, #main-menu a {
-        background-color: transparent;
-        font-family: "Irish Grover", system ui;
-        font-size: 15px; 
-        transition: color .2s;
-        text-decoration: none;
-        color:black;
-        border-width: 0;
-        font-weight: none; 
-} 
+    background-color: transparent;
+    font-family: "Irish Grover", system ui;
+    font-size: 15px; 
+    transition: color .2s;
+    text-decoration: none;
+    color:black;
+    border-width: 0;
+    font-weight: none; 
 
 /* the navigation bar  */
-  
+}
+
 /* About Me Button */
 #main-menu button:nth-of-type(0):hover {
     color: white;
 }
-    
+
 /* Resume Link */
 #main-menu a:hover {
-    color:white; 
+    color: white; 
 }
-    
+
 /* Criminology Button */
 #main-menu button:nth-of-type(1):hover {
-    color:  white;
+    color:white;
 }
-    
+
 /* Journalism Button */
 #main-menu button:nth-of-type(2):hover {
     color:white;
 }
-    
+
 /* Graphic Design Button */
 #main-menu button:nth-of-type(3):hover {
     color: white;
 }
-
-.rectangle {
-    width: 700px; 
-    height: 980px; 
-    background-color: #051BE2; 
-    position: absolute; 
-    top: 70%; /* Adjust top position if needed */
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    margin-top: 15%;
-}
-
-.pdf-container {
-    position: absolute;
-    top: 75%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1; /* Ensure it's above the rectangle */
-    width: 600px; 
-    height: 600px; 
-}
-
-.pdf-container img {
-    width: 100%;
-    height: 140%;
-    margin-top: 5%;
-}
-
-

@@ -1,40 +1,51 @@
 body{
     font-family: "Irish Grover", system-ui;
-    margin: 60px;
-    margin-top: 10px;
+    margin: 10px;
+    margin-top: 0px;
     padding: 0;
-    background-color: teal; /* color teal since it looks more like underwater */
+    background-color:#FDD60C; 
+    overflow-y: hidden;
     }
 
-    .sketchfab-embed-wrapper {
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (Responsive) */
-    }
-        
-    .sketchfab-embed-wrapper iframe,video {
+img {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90%;
-    opacity: 0.5; /* change this opacity value for the color as needed*/
+    top: 50%;
+    right: 120px;
+    transform: translateY(-30%);
+    width: 500px; /* Adjust the width as needed */
     }
-    
+
+/* Target the div containing the text */
+div {
+    font-family: "Kaisei HarunoUmi", sans-serif; /* Apply the font-family */
+}
+
+
+/* Optionally, you can target each word individually */
+div span {
+    font-family: "Kaisei HarunoUmi", sans-serif;
+    font-size: 70px;
+    position: relative; /* Add position relative */
+    top: 20px; /* Adjust top position */
+    left: 130px; /* Adjust left position */
+}
+
 nav{
-    background-color: transparent;
+    background-color: #FDD60C;
     font-family: "Irish Grover", system-ui;
-    font-size: 27px;
+    font-size: 20px;
     font-style: normal;
     /* added the three "fonts" but had no changes to the navigation menu */
     display: flex; 
     justify-content: space-between;
-    padding: 20px 10%; 
-      }
+    padding: 20px 5%; 
+    /* first px change vertical size, the second change the spacing bewteen */
+    }
 
 #main-menu{
     display: flex;
-    gap: 60px;
+    align-items: center;
+    gap: 120px;
 }
 
 #main-menu li{
@@ -49,24 +60,26 @@ nav{
 
 .sub-menu:hover .dropdown {
     display:block;
+    
 }
 
 .logo{
-    color: #00b3b3;
+    color:#051BE2;
     font-family: "Just Me Again Down Here", cursive;
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
-    padding: 0px 5%;
+    padding: 0px 3%;
+    text-decoration: none; /* Remove underline */ 
 }
 
 
 #main-menu button, #main-menu a {
     background-color: transparent;
     font-family: "Irish Grover", system ui;
-    font-size: 20px; 
-    transition: color .3s;
+    font-size: 15px; 
+    transition: color .2s;
     text-decoration: none;
-    color: white;
+    color:black;
     border-width: 0;
     font-weight: none; 
 
@@ -75,27 +88,27 @@ nav{
 
 /* About Me Button */
 #main-menu button:nth-of-type(0):hover {
-    color: #2CC49B; 
+    color: white;
 }
 
 /* Resume Link */
 #main-menu a:hover {
-    color: #2CC49B; 
+    color: white 
 }
 
 /* Criminology Button */
 #main-menu button:nth-of-type(1):hover {
-    color: #ecec2e; 
+    color:  white;
 }
 
 /* Journalism Button */
 #main-menu button:nth-of-type(2):hover {
-    color: #40b4f7; 
+    color:white;
 }
 
 /* Graphic Design Button */
 #main-menu button:nth-of-type(3):hover {
-    color: #f74949; 
+    color: white;
 }
 
 
