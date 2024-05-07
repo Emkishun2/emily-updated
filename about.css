@@ -99,19 +99,21 @@ nav{
     font-size: 18px;
     color: white;
     margin-top: 2%;
+
 }
 
 .rectangle {
-    width: 440px; 
-    height: 350px; 
+    width: 49%; 
+    height: 400px; 
     background-color:#eb86ff;
     position: left; 
-    top: 20%; /* Adjust top position if needed */
+    top: 15%; /* Adjust top position if needed */
     left: 0%; 
-    transform: translate(20%, -40%); 
-    margin-top: 15%;
+    transform: translate(92%, -40%); 
+    /* second number is top and bottom  */
+    margin-top: 12%;
 }
-
+/* picture  */
 .pdf-container {
     position: absolute;
     top: 75%; 
