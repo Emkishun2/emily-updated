@@ -1,5 +1,5 @@
 body{
-    font-family: "Irish Grover", system-ui;
+    font-family: "Darumadrop One", sans-serif;
     margin: 10px;
     margin-top: 0px;
     padding: 0;
@@ -7,9 +7,10 @@ body{
     overflow-y: hidden;
     }
 
+/* the cloud */
 img {
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: 120px;
     transform: translateY(-30%);
     width: 500px; /* Adjust the width as needed */
@@ -32,7 +33,7 @@ div span {
 
 nav{
     background-color: #FDD60C;
-    font-family: "Irish Grover", system-ui;
+    font-family: "Darumadrop One", sans-serif;
     font-size: 20px;
     font-style: normal;
     /* added the three "fonts" but had no changes to the navigation menu */
@@ -75,8 +76,8 @@ nav{
 
 #main-menu button, #main-menu a {
     background-color: transparent;
-    font-family: "Irish Grover", system ui;
-    font-size: 15px; 
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 16px; 
     transition: color .2s;
     text-decoration: none;
     color:black;
@@ -110,8 +111,5 @@ nav{
 #main-menu button:nth-of-type(3):hover {
     color: white;
 }
-
-
-
 
 

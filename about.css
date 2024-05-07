@@ -1,14 +1,15 @@
 body{
-    font-family: "Irish Grover", system-ui;
+    font-family: "Darumadrop One", sans-serif;
     margin: 10px;
     margin-top: 0px;
     padding: 0;
-    background-color:#C867F0; 
+    background-color:#F0A2FF;
+    overflow-y: hidden;
     }
 
 nav{
-    background-color: #C867F0;
-    font-family: "Irish Grover", system-ui;
+    background-color:#F0A2FF;
+    font-family: "Darumadrop One", sans-serif;
     font-size: 20px;
     font-style: normal;
     /* added the three "fonts" but had no changes to the navigation menu */
@@ -50,8 +51,8 @@ nav{
 
 #main-menu button, #main-menu a {
     background-color: transparent;
-    font-family: "Irish Grover", system ui;
-    font-size: 15px; 
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 16px; 
     transition: color .2s;
     text-decoration: none;
     color:black;
@@ -91,21 +92,39 @@ nav{
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 40%;
-    text-align: 2;
+    width: 45%;
+    text-align: 1;
     padding-right: 100px; /* Add some padding to the right */
-    font-family: "Bakbak One", sans-serif;/* Apply the different font */
-    font-size: 15px;
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 18px;
     color: white;
+    margin-top: 2%;
 }
 
 .rectangle {
-    width: 350px; 
+    width: 440px; 
     height: 350px; 
-    background-color:black; 
+    background-color:#eb86ff;
     position: left; 
     top: 20%; /* Adjust top position if needed */
     left: 0%; 
-    transform: translate(50%, -50%); 
+    transform: translate(20%, -40%); 
     margin-top: 15%;
+}
+
+.pdf-container {
+    position: absolute;
+    top: 75%; 
+    left: 34%;
+    transform: translate(-50%, -47%);
+    z-index: 1; /* Ensure it's above the rectangle */
+    width: 600px; 
+    height: 600px; 
+    
+}
+
+.pdf-container img {
+    width: 70%;
+    height: 60%;
+    margin-top: -5%;
 }
