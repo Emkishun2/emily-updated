@@ -113,3 +113,59 @@ nav{
 }
 
 
+/* Target the cloud image */
+img {
+    width: 500px; /* Adjust the width as needed */
+    position: absolute;
+    top: 40%;
+    right: 120px;
+    transform: translateY(-30%);
+}
+
+/* Target the div containing the text */
+div {
+    font-family: "Kaisei HarunoUmi", sans-serif; /* Apply the font-family */
+}
+
+/* Optionally, you can target each word individually */
+div span {
+    font-family: "Kaisei HarunoUmi", sans-serif;
+    font-size: 70px;
+    position: relative; /* Add position relative */
+    top: 20px; /* Adjust top position */
+    left: 130px; /* Adjust left position */
+}
+
+/* Media query for smaller screen sizes */
+@media only screen and (max-width: 768px) {
+    
+    #main-menu {
+        margin-top: 30px; /* Add space between logo and menu */
+        gap: 5px; /* Reduce gap between menu items */
+        font-size: 10px;
+    }
+
+    .logo {
+        margin-bottom: 10px; /* Add space below logo */
+        font-size: 50px;
+    }
+    
+    
+    img {
+        width: 200px; /* Adjust the width as needed */
+        top: 30%; /* Adjust top position */
+        right: 5px; /* Adjust right position */
+        transform: none; /* Reset transform */
+    }
+
+    div {
+        text-align: center; /* Center-align the text */
+    }
+
+    div span {
+        display: block; /* Display each word on a separate line */
+        top: 0; /* Reset top position */
+        left: -10%; /* Reset left position */
+        font-size: 30px; /* Adjust font size */
+    }
+}

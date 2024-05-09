@@ -17,23 +17,28 @@
 </head>
 <body>
 
+    <title>About Me Page</title>
+    <!-- Other meta tags and links -->
+</head>
+<body>
+
 <nav>
     <a href="index.html" class="logo">DEVI</a>
     <menu id="main-menu">
-    <li class="sub-menu">
-    <button><a href= "about.html">About Me</a></button>
-    <menu class="dropdown">
-    <li><a href="resume.html">Resume</a></li>
-<!-- the link to resume page -->
-
-</menu>
-
-    </li>
-    <button><a href="criminology.html">Criminology</a></button>
-    <button>Journalism</button>
-    <button>Graphic Design</button>
+        <li class="sub-menu">
+            <button aria-haspopup="true" aria-expanded="false">
+                <a href="about.html">About Me</a>
+            </button>
+            <menu class="dropdown">
+                <li><a href="resume.html">Resume</a></li>
+            </menu>
+        </li>
+        <button><a href="criminology.html">Criminology</a></button>
+        <button><a href="Journalism.html">Journalism</a></button>
+        <button>Graphic Design</button>
     </menu>
 </nav>
+
 
 <div class="rectangle"></div>
     <div class="content">
@@ -48,11 +53,11 @@
     of learning, growing, and creating—because that's where the real adventure begins.
 </p>
 </div>
-</div>
 
 
 <div class="pdf-container">
-    <img src="assets/images/emily headshot .gif" alt="Emily Headshot GIF">
+    <img src="assets/images/emily headshot .gif" alt="Emily Headshot GIF" aria-label="Emily's headshot">
+</div>
 
 </body>
 </html>
