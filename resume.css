@@ -64,27 +64,27 @@ nav{
   
 /* About Me Button */
 #main-menu button:nth-of-type(0):hover {
-    color: white;
+    color: #051BE2;
 }
-    
+
 /* Resume Link */
 #main-menu a:hover {
-    color:white; 
+    color: #051BE2;
 }
-    
+
 /* Criminology Button */
 #main-menu button:nth-of-type(1):hover {
-    color:  white;
+    color:  #051BE2;
 }
-    
+
 /* Journalism Button */
 #main-menu button:nth-of-type(2):hover {
-    color:white;
+    color:#051BE2;
 }
-    
+
 /* Graphic Design Button */
 #main-menu button:nth-of-type(3):hover {
-    color: white;
+    color: #051BE2;
 }
 
 .rectangle {

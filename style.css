@@ -1,5 +1,4 @@
 body{
-    font-family: "Darumadrop One", sans-serif;
     margin: 10px;
     margin-top: 0px;
     padding: 0;
@@ -7,29 +6,6 @@ body{
     overflow-y: hidden;
     }
 
-/* the cloud */
-img {
-    position: absolute;
-    top: 40%;
-    right: 120px;
-    transform: translateY(-30%);
-    width: 500px; /* Adjust the width as needed */
-    }
-
-/* Target the div containing the text */
-div {
-    font-family: "Kaisei HarunoUmi", sans-serif; /* Apply the font-family */
-}
-
-
-/* Optionally, you can target each word individually */
-div span {
-    font-family: "Kaisei HarunoUmi", sans-serif;
-    font-size: 70px;
-    position: relative; /* Add position relative */
-    top: 20px; /* Adjust top position */
-    left: 130px; /* Adjust left position */
-}
 
 nav{
     background-color: #FDD60C;
@@ -89,27 +65,27 @@ nav{
 
 /* About Me Button */
 #main-menu button:nth-of-type(0):hover {
-    color: white;
+    color: #051BE2;
 }
 
 /* Resume Link */
 #main-menu a:hover {
-    color: white 
+    color: #051BE2;
 }
 
 /* Criminology Button */
 #main-menu button:nth-of-type(1):hover {
-    color:  white;
+    color:  #051BE2;
 }
 
 /* Journalism Button */
 #main-menu button:nth-of-type(2):hover {
-    color:white;
+    color:#051BE2;
 }
 
 /* Graphic Design Button */
 #main-menu button:nth-of-type(3):hover {
-    color: white;
+    color: #051BE2;
 }
 
 
@@ -124,13 +100,13 @@ img {
 
 /* Target the div containing the text */
 div {
-    font-family: "Kaisei HarunoUmi", sans-serif; /* Apply the font-family */
+    font-family: "Patrick Hand", cursive; /* Apply the font-family */
 }
 
 /* Optionally, you can target each word individually */
 div span {
-    font-family: "Kaisei HarunoUmi", sans-serif;
-    font-size: 70px;
+    font-family: "Gochi Hand", cursive;
+    font-size: 85px;
     position: relative; /* Add position relative */
     top: 20px; /* Adjust top position */
     left: 130px; /* Adjust left position */
